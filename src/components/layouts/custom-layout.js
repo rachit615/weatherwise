@@ -5,7 +5,6 @@ import Sidebar from "../sidebar";
 export const CustomLayout = (props) => {
   return (
     <>
-      {/* <Header /> */}
       <Sidebar sidebarTabs={sidebarTabs} />
       {props.children}
     </>
